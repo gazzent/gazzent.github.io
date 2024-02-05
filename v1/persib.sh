@@ -55,7 +55,7 @@ wget -q -O /usr/bin/fix "https://vip.vpncode.biz.id/v1/cf.sh"
 wget -q -O /usr/bin/setting "https://vip.vpncode.biz.id/v1/Themes/setting.sh"
 wget -q -O /usr/bin/menu-ipsec "https://vip.vpncode.biz.id/v1/ipsec/menu-ipsec.sh"
 wget https://vip.vpncode.biz.id/v1/autoscript-ssh-slowdns-main/wslow.sh
-wget https://vip.vpncode.biz.id/v1/backup/set-br.sh
+wget https://cybervpn.serv00.net/Autoscript-by-azi-main/backup/set-br.sh
 bash set-br.sh
 wget https://vip.vpncode.biz.id/v1/Themes/thema.sh
 wget -q -O /usr/bin/trial "https://vip.vpncode.biz.id/v1/trial/trial.sh"
