@@ -11,7 +11,7 @@ else
   clear
   figlet -f 3d "KINGSTORE" | lolcat
   echo "Update tersedia!!" | lolcat
-  echo "backup updatess" | lolcat
+  echo "MENU updatess" | lolcat
 
   spinner() {
     local pid=$1
