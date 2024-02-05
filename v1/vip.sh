@@ -6,7 +6,6 @@ tyblue='\e[1;36m'
 NC='\e[0m'
 # Getting
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "memeriksa vps anda"
 sleep 0.5
