@@ -3,7 +3,7 @@
 
 hosting=$(curl -sS https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/domain)
 LocalVersion=$(cat /etc/version)
-version=$(curl -sS "https://https://vip.vpncode.biz.id/v1/versiupdate")
+version=$(curl -sS "https://vip.vpncode.biz.id/v1/versiupdate")
 
 if [ "$LocalVersion" = "$version" ]; then
   echo
@@ -73,20 +73,20 @@ else
   rm -f /usr/bin/menu-ssh
   # Tambahkan perintah rm untuk file lainnya...
 
-  wget -q -O /etc/version "https://https://vip.vpncode.biz.id/v1/versiupdate" && chmod +x /etc/version
+  wget -q -O /etc/version "https://vip.vpncode.biz.id/v1/versiupdate" && chmod +x /etc/version
   rm -f /usr/bin/menu
-  wget -q -O /usr/bin/menu "https://https://vip.vpncode.biz.id/v1/menu.sh" && chmod 777 /usr/bin/menu
+  wget -q -O /usr/bin/menu "https://vip.vpncode.biz.id/v1/menu.sh" && chmod 777 /usr/bin/menu
   rm -f /usr/bin/menu-ssh
-  wget -q -O /usr/bin/menu-ssh "https://https://vip.vpncode.biz.id/v1/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
+  wget -q -O /usr/bin/menu-ssh "https://vip.vpncode.biz.id/v1/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 
   rm -f /usr/bin/menu-vless
-  wget -q -O /usr/bin/menu-vless "https://https://vip.vpncode.biz.id/v1/tes/menu-vless.sh"
+  wget -q -O /usr/bin/menu-vless "https://vip.vpncode.biz.id/v1/tes/menu-vless.sh"
   rm -f /usr/bin/menu-vmess
-  wget -q -O /usr/bin/menu-vmess "https://https://vip.vpncode.biz.id/v1/tes/menu-vmess.sh"
+  wget -q -O /usr/bin/menu-vmess "https://vip.vpncode.biz.id/v1/tes/menu-vmess.sh"
   rm -f /usr/bin/menu-trojan
-  wget -q -O /usr/bin/menu-trojan "https://https://vip.vpncode.biz.id/v1/tes/menu-trojan.sh"
+  wget -q -O /usr/bin/menu-trojan "https://vip.vpncode.biz.id/v1/tes/menu-trojan.sh"
   rm -f /usr/bin/usernew
-  wget -q -O /usr/bin/usernew "https://https://vip.vpncode.biz.id/v1/menu/usernew.sh"
+  wget -q -O /usr/bin/usernew "https://vip.vpncode.biz.id/v1/menu/usernew.sh"
 
   chmod +x /usr/bin/menu-vmess
   chmod +x /usr/bin/menu-vless
@@ -94,15 +94,15 @@ else
   chmod +x /usr/bin/usernew
 
   rm -f /usr/bin/trial
-  wget -q -O /usr/bin/trial "https://https://vip.vpncode.biz.id/v1/trial/trial.sh" && chmod +x /usr/bin/trial
+  wget -q -O /usr/bin/trial "https://vip.vpncode.biz.id/v1/trial/trial.sh" && chmod +x /usr/bin/trial
   rm -f /usr/bin/trial-vmess
-  wget -q -O /usr/bin/trial-vmess "https://https://vip.vpncode.biz.id/v1/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
+  wget -q -O /usr/bin/trial-vmess "https://vip.vpncode.biz.id/v1/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
   rm -f /usr/bin/trial-trojan
-  wget -q -O /usr/bin/trial-trojan "https://https://vip.vpncode.biz.id/v1/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
+  wget -q -O /usr/bin/trial-trojan "https://vip.vpncode.biz.id/v1/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
   rm -f /usr/bin/trial-udp
-  wget -q -O /usr/bin/trial-udp "https://https://vip.vpncode.biz.id/v1/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
+  wget -q -O /usr/bin/trial-udp "https://vip.vpncode.biz.id/v1/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
   rm -f /usr/bin/trial-vless
-  wget -q -O /usr/bin/trial-vless "https://https://vip.vpncode.biz.id/v1/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
+  wget -q -O /usr/bin/trial-vless "https://vip.vpncode.biz.id/v1/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
 
   rm -f /usr/bin/add-vless
   wget -q -O /usr/bin/add-vless "https://vip.vpncode.biz.id/bot-v1/add-vless.sh" && chmod +x /usr/bin/add-vless
@@ -113,13 +113,13 @@ else
   rm -f /usr/bin/addss
   wget -q -O /usr/bin/addss "https://vip.vpncode.biz.id/bot-v1/addws.sh" && chmod +x /usr/bin/addss
 
-wget -q -O /usr/bin/menu-trial "https://https://vip.vpncode.biz.id/v1/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
+wget -q -O /usr/bin/menu-trial "https://vip.vpncode.biz.id/v1/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
 
 
 touch /etc/trialxray.txt
 
 
-wget -q -O /usr/bin/service-trial "https://https://vip.vpncode.biz.id/v1/service-trial.sh" && chmod +x /usr/bin/service-trial
+wget -q -O /usr/bin/service-trial "https://vip.vpncode.biz.id/v1/service-trial.sh" && chmod +x /usr/bin/service-trial
 
 
 cat >/etc/systemd/system/trial.service << EOF
