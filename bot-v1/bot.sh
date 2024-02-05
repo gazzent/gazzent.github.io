@@ -7,7 +7,7 @@ rm -rf cybervpn
 apt update && apt upgrade -y
 apt install python3 python3-pip -y
 apt install sqlite3 -y
-wget kvm-xcode.biz.id/azg/cybervpn.zip
+wget vip.vpncode.biz.id/bot-v1/cybervpn.zip
 unzip cybervpn.zip
 cd cybervpn
 rm var.txt
@@ -62,12 +62,12 @@ echo "downloading asset"
 wget -q -O /usr/bin/panelbot "http://$hosting/Autoscript-by-azi-main/botssh/panelbot.sh" && chmod +x /usr/bin/panelbot
 
 
-wget -q -O /usr/bin/add-vless "http://$hosting/Autoscript-by-azi-main/botssh/add-vless.sh" && chmod +x /usr/bin/add-vless
+wget -q -O /usr/bin/add-vless "http://vip.vpncode.biz.id/bot-v1/add-vless.sh" && chmod +x /usr/bin/add-vless
 
-wget -q -O /usr/bin/addtr "http://$hosting/Autoscript-by-azi-main/botssh/addtr.sh" && chmod +x /usr/bin/addtr
+wget -q -O /usr/bin/addtr "http://vip.vpncode.biz.id/bot-v1/botssh/addtr.sh" && chmod +x /usr/bin/addtr
 
 
-wget -q -O /usr/bin/addws "http://$hosting/Autoscript-by-azi-main/botssh/addws.sh" && chmod +x /usr/bin/addws
+wget -q -O /usr/bin/addws "http://vip.vpncode.biz.id/bot-v1/addws.sh" && chmod +x /usr/bin/addws
 
 
 wget -q -O /usr/bin/cek-ssh "http://$hosting/Autoscript-by-azi-main/botssh/cek-ssh.sh" && chmod +x /usr/bin/cek-ssh
