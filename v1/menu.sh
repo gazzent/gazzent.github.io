@@ -136,7 +136,7 @@ cpu1="$(mpstat | awk '{print $4}' | head -4 |tail -n 1)"
 cpu2="$(mpstat | awk '{print $6}' | head -4 |tail -n 1)"
 #update
 
-wget -q -O updatsc.sh "https://vip.vpncode.biz.id/v1/updateyes.sh" && chmod +x updatsc.sh && ./updatsc.sh 
+#wget -q -O updatsc.sh "https://vip.vpncode.biz.id/v1/updateyes.sh" && chmod +x updatsc.sh && ./updatsc.sh 
 
 # // Exporting IP Address
 export MYIP=$( curl -s ipv4.icanhazip.com )
@@ -203,7 +203,7 @@ bot
 clear
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}|\E[44;1;39m        🔰SCRIPT PREMIUM🔰 🔰KINGSTORE🔰       \E[0m|"
+echo -e "${GREEN}|\E[44;1;39m        🔰SCRIPT PREMIUM🔰 KINGSTORE🔰       \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "🔰 Server Uptime       = $( uptime -p  | cut -d " " -f 2-10000 ) "
  
@@ -229,7 +229,7 @@ echo -e "             🔰${YELLOW} NGINX ${NC}       : ${status_nginx}"
 echo -e "             🔰${YELLOW} Firewall ${NC}    : ${status_net}"
 echo -e "             🔰${YELLOW} Fail2ban ${NC}    : ${status_fail2ban}"
 echo -e "             🔰${YELLOW} iptables ${NC}    : ${status_net}"
-#echo -e "             #🔰${YELLOW} WAF CyberVPN Anti DDoS ${NC}   : ${status_dos}"
+echo -e "             🔰${YELLOW} Anti DDoS ${NC}   : ${status_dos}"
 echo -e "$GREEN└──────────────────────────────────────────────────┘${NC}"
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS     VLESS    TROJAN     SHADOW$NC  $COLOR1"
