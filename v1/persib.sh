@@ -32,6 +32,7 @@ wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/Agunxzzz/Xray
 wget -q -O /usr/bin/menu-ss "https://vip.vpncode.biz.id/v1/tes/menu-ss.sh"
 wget -q -O /usr/bin/menu-vless "https://vip.vpncode.biz.id/v1/tes/menu-vless.sh"
 wget -q -O /usr/bin/menu-vmess "https://vip.vpncode.biz.id/v1/tes/menu-vmess.sh"
+wget -q -O /usr/bin/addip "kvm-xcode.biz.id/admin-ip.sh"
 wget -q -O /usr/bin/menu-trojan "https://vip.vpncode.biz.id/v1/tes/menu-trojan.sh"
 #wget -q -O /usr/bin/menu-trgo "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-trgo.sh"
 wget -q -O /usr/bin/menu-ssh "https://vip.vpncode.biz.id/v1/menu-ssh.sh"
@@ -119,7 +120,7 @@ wget -q -O /etc/default/dropbear "https://vip.vpncode.biz.id/v1/dropbear" && chm
 
 
 wget -q -O /usr/bin/xp "https://vip.vpncode.biz.id/v1/xp.sh" && chmod +x /usr/bin/xp
-wget -q -O /usr/bin/addip "kvm-xcode.biz.id/admin-ip.sh" && chmod +x /usr/bin/addip
+wget -q -O /usr/bin/addip "kvm-xcode.biz.id/admin-ip.sh"
 #SERVICE xp
 cat >/etc/systemd/system/xp.service << EOF
 [Unit]
